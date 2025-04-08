@@ -1,27 +1,37 @@
-body {
-   font-family: Arial, Helvetica, sans-serif;
-   background-color: #e0f2f1 ;
-   margin: 30px;
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Define a fonte do texto*/
+    line-height: 1.6;/*espaçamento entre ad linha*/
+    color: #333;/*cor dp texto*/
+    max-width: 100-px; /*define largura máxima do conteúdo*/
+    margin: 0 auto; /*centraliza o conteúdo na horizontal*/
+    padding: 20px;/*espaçamento interno*/
+    background-color: grey;/*cor de fundo*/
 }
-
-h1  , h2  ,h3{
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1 , h2 {
+    color: rgb(74, 74, 74); /*cor do texto*/
+    text-align: center; /*centraliza o conteúdo*/
 }
-
-
+.lista-topico {
+    background-color: white;
+    border-radius: 15px;/*Arredonda a borda*/
+    padding: 20px;/*Adiciona espaçamento interno ao bloco*/
+    margin-bottom: 30px;/*Adiciona margem em baixo do bloco*/
+}
+.lista-topico:hover {
+    transform: translateY(-5px);/*move o bloco 5 px para cima*/
+}
 p {
-    font-style: italic;
-    color: #333;
+    margin-bottom: 15px;
+    padding-left: 30px;/* adiciona um espaçomento interno á squerda*/
 }
+h3 {
+    color: black
 
-header{
-    text-align: center;
-    padding-bottom: 20px;
 }
-
-img {
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 50%;
+img{
+    width: 100%;/*largura da imagem 100%*/
+height: 200px;/*altura da imagem*/
+object-fit: cover;/*Ajusta a imagem para cobrir o contêiner; cortando se necessári*/
+border: 10px;
+margin-bottom: 15px;
 }
